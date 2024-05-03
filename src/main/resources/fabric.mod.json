@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "plugin-configurer",
+  "version": "${version}",
+
+  "name": "PluginConfigurer",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/plugin-configurer/icon.png",
+
+  "environment": "client",
+  "entrypoints": {},
+
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
